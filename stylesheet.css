@@ -1,26 +1,28 @@
 
-footer {
-    background-color: solid rgb(94, 70, 27);
-    color: white;
+.footer {
+    color: rgb(255, 255, 255);
     position:relative;
     height: 200px;  
+    width: 100%;
   }
 
   .footer .footer-content{
     height: 160px;
     display: flex;
     color:black;
+    background-color: rgb(153, 122, 81);
     
   }
   .footer .footer-content .footer-section {
     flex: 1;
     padding: 100 px;
-    border: white;
+    border:1 px salmon;
+    text-align: center;
 
   }
 
   .footer .footer-bottom {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(158, 54, 54);
     color: rgb(0, 0, 0);
     height: 40px;
     width: 100%;
