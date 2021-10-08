@@ -14,7 +14,7 @@ body {
 header {
   background-color: rgb(238, 218, 202);
   padding: 10px;
-  box-shadow: 0 0 4px rgb(151, 13, 98);
+  box-shadow: 0 0 4px rgb(197, 56, 87);
   height: 150px;
   }
 
@@ -53,7 +53,7 @@ header ul #headerbox a {
 }
 
 header ul #headerbox a:hover {
-  background-color:rgba(155, 76, 125, 0.664);
+  background-color:rgba(197, 56, 87, 0.548);
 
 }
 
@@ -73,7 +73,7 @@ footer {
   color:black;
   display: flex;
   height: 150px;
-  box-shadow:0 0 4px rgb(151, 13, 98);
+  box-shadow:0 0 4px rgb(197, 56, 87);
   
 
 }
@@ -137,30 +137,11 @@ footer {
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
+    color: rgb(197, 56, 87);
   }
  
   
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 220px;
-    float: left;
-    padding: 63px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 200px;
-    height: 200px;
-  }
-  
-  div.desc {
-    padding: 50px;
-    text-align: center;
-  }
+
   h1{
     font-size: 3rem;
     font-weight:lighter;
@@ -174,11 +155,7 @@ footer {
     font-weight: bold;
     line-height: 1.7;
   }
-  h3{
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
-  }
+  
 
   .box{
     background-color: rgb(238, 218, 202);
@@ -252,4 +229,50 @@ span:nth-child(6)
 span:nth-child(7)
 {
   animation-delay: 3.5s;
+}
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 23%;
+  margin-bottom: 16px;
+  padding: 14px;
+}
+
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 10px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
 }
