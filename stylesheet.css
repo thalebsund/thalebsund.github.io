@@ -34,7 +34,7 @@ header li a {
 
 header li img {
   height: 100px;
-  width: 145px;
+  width: 350px;
   float: left;
   margin-top: 10px;
 }
@@ -172,7 +172,7 @@ footer {
 
 
   .text-box {
-    font-size: 80px;
+    font-size: 100px;
     font-family:sans-serif;
     position: absolute;
     top: 50%;
@@ -230,13 +230,21 @@ span:nth-child(7)
 {
   animation-delay: 3.5s;
 }
+span:nth-child(8)
+{
+  animation-delay: 4s;
+}
+span:nth-child(9)
+{
+  animation-delay: 4.5s;
+}
 
 /* Three columns side by side */
 .column {
   float: left;
-  width: 23%;
+  width: 22%;
   margin-bottom: 16px;
-  padding: 14px;
+  padding: 13px;
 }
 
 .column2 {
@@ -281,7 +289,7 @@ span:nth-child(7)
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 250px;
   margin: auto;
   text-align: center;
   
@@ -310,5 +318,18 @@ span:nth-child(7)
 
 img{
   height: 330px;
-  width: 50px;
+  width: 75px;
+}
+
+@media screen and (max-width:768px){
+  .text-box {
+    font-size: 45px;
+    font-family:sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+  }
+
 }
